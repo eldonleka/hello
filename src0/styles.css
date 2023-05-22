@@ -1,0 +1,83 @@
+h1,h2,h3 {
+    color: blue;
+    text-align: center;
+}
+
+table,td,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: greenyellow;
+    color: black;
+
+
+}
+
+div {
+    background-color: greenyellow;
+    color: black;
+    width: 400px;
+    height:200px;
+    padding: 13px;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight:Bold;
+
+}
+
+#doni { /* Style by #doni */
+
+    color: red;
+}
+.cs50 { /* style by class .cs50 */
+    color: red;
+}
+
+li {
+    color: blue;
+    font-size: 24px;
+
+}
+
+a {
+    color: blueviolet;
+}
+
+a[href="https://google.al"] {
+    color: red;
+}
+
+button { /* Create a button */
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: greenyellow;
+}
+
+
+button:hover { /* change button colour  when move cursour to button */
+    background-color: orangered;
+} 
+
+/*
+@media (min-wdth: 600px) {
+    body {
+        background-color: red;
+    }
+
+    
+}
+
+@media (max-wdth: 599) {
+    body {
+        background-color: blue;
+    }
+
+    
+}
+*/
+
+
+
