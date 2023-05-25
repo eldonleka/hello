@@ -13,6 +13,7 @@ git commit -am "shtova hello.html"      //all files
 git status   //check rep status,
 git push    //publish file to git repgit
 git pull   //download the latest version from git rep to vs
+git eldon
 
 
 
