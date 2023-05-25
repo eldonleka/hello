@@ -16,7 +16,7 @@ git pull   //download the latest version from git rep to vs
 git reset  
 git reset --hard <commit>
 git reset --hard origin/master
-git eldon
+
 
 
 
