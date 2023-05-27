@@ -17,8 +17,10 @@ git reset
 git reset --hard <commit>
 git reset --hard origin/master
 
-git branch
-git checkout -b style
+git branch              //show all branches
+git checkout -b style  //create new branch
+git checkout branchname   //
+git switch   branchname  //
 
 
 
