@@ -10,6 +10,14 @@ CREATE TABLE flights (
 
 .tables             // show all tables
 
+SQL CLAUSES
+
+LIMIT
+ORDER BY
+GROUP BY
+HAVING
+
+
 
 UPDATE flights
     SET duration = 430
@@ -25,6 +33,12 @@ SELECT * FROM flights WHERE duration > 500;
 SELECT * FROM flights WHERE duration > 500 OR destination = "Paris";
 SELECT * FROM flights WHERE origin IN ("New York", "Lima");
 SELECT * FROM flights WHERE origin LIKE "%a%";   //filter those which contain letter " a "
+
+SELECT first, origin, destination FROM flights JOIN passengers ON passengers.flight_id = flights.id;
+
+CREATE INDEX name_index ON passengers (last);
+
+DELETE FROM flights WHERE destination = "Tokyo";
 
 
 .mode columns     //edit apparence
